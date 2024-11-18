@@ -4,11 +4,11 @@ import { imgPath } from "../helpers/functions-general";
 const CardItems = ({ item, key }) => {
   return (
     <div className="new-collection-card flex flex-col px-4 " key={key}>
-      {/* Card IMAGE */}
+     
       <div className="cardImage ">
         <img src={`${imgPath}/${item.img}`} alt="" />
       </div>
-      {/* Card TEXT */}
+     
       <div className="text-black">
         <h2>{item.title}</h2>
         <p className="opacity-65">{text}</p>

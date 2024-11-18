@@ -60,7 +60,7 @@ const NewCollection = () => {
 
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default NewCollection;

@@ -14,17 +14,17 @@ const Match = ({ img }) => {
         />
         <div className="match__contents flex bottom-10 left-20 justify-center text-black w-[90vw] px-10">
           <div className="match__text max-w-[1000px]">
-            <h1 className="pb-1 py-4">WEAR TO WEDDING</h1>
+            <h1 className="pb-1 py-4 font-semibold">WEAR TO WEDDING</h1>
             <p className="font-bold opacity-50">
               A symphony of exquisite designs tailored for your unforgetable moments.
             </p>
           </div>
-        </div>
-        <button className="match__btn mb-20 py-5 justify-center">
+          <button className="match__btn mb-20 py-5 flex-end">
             <Link to="/" className="text-white bg-black py-2 px-5 rounded-full font-semibold text-xs">
               See Details
             </Link>
           </button>
+        </div>
       </div>
     </div>
   </section>

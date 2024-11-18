@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Banner = ({ img }) => {
   return (
     <section className="Banner relative">
-      <div className="container ">
+      <div className="container">
         <div className="wrapper">
           <img
             src={`${imgPath}/${img}`}

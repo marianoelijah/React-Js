@@ -20,10 +20,10 @@ const BoxCollection = () => {
   return (
     <div>
         <div className="container">
-            <div className='text-center py-5'>
+            {/* <div className='text-center py-5'>
                 <h3 className='uppercase mb-4'>box collection</h3>
                 <p className='opacity-40'>Our latest collection, where classic and contemporary styles converge in perfect harmony.</p>
-            </div>
+            </div> */}
             <div className='grid grid-cols-3 gap-2'>            
                 {boxCollectionArray.map((item, key)=>(
 
